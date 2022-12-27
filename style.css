@@ -1,0 +1,195 @@
+.body{
+    margin: 0%; 
+}
+
+.bg{
+    background: #294646;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+dl, ol, ul {
+    margin-top: 20px;
+}
+.nv-icon{
+    background: linear-gradient(to top right, #227e67 0%, #ffffff 80%);
+    transition: all 0.3s ease;
+    transition: all 0.35s ease;
+}
+.nv-icon:hover{
+    transform: scale(1.02);
+    box-shadow:0 0 20px rgba(60, 255, 0, 0.897) ;
+}
+.namelogo{
+    width: 60px;
+    margin-top: -10px;
+}
+.Name{
+    font-family: fangsong;
+    font-variant-caps: small-caps;
+   
+    margin-top: -37px;
+    margin-left: 65px;
+}
+.img{
+    background: linear-gradient(to top right, #227e67 0%, #ffffff 100%);
+}
+.text-logo{
+    margin-bottom: -20px;
+    margin-left: -28px;
+}
+.hd-style{
+    position: relative;
+    text-decoration: none;
+   font-weight: 600;
+    transition: all 0.2s ease;
+}
+.hd-style:hover{
+    transform: scale(1.07);
+}
+.hd-style::after{
+    content: "";
+    position: absolute;
+    background-color: #00ffbb;
+    height: 3px;
+    width: 0%;
+    left: 0;
+    margin-top: 26px;
+    transition: 0.3s;
+}
+nav li a:hover:after{
+    width: 100%;
+}
+
+.section-1{
+    background: linear-gradient(to bottom right, #204e4b 0%, #ffffff 100%);
+    padding-top: 8em;
+    
+}
+.img-fluid{
+    height: 450px;  
+    filter: drop-shadow(-47px 0px);
+}
+.head-font{
+    color: rgb(0, 0, 56);
+}
+.footer{
+    font-variant: petite-caps;
+    font-size: 25px;
+    font-weight: bold;
+    color:rgb(221, 0, 74);
+}
+.section-2{
+    background: linear-gradient(to top right, #9c9c9c 0%, #ffffff 100%);
+}
+.section-3{
+    background: linear-gradient(to bottom right, #9c9c9c 0%, #ffffff 100%);
+}
+.line{
+    color:  rgb(167, 167, 45);
+    font-weight: 900;
+}
+.submit{
+    width: 100%;
+    border-color: transparent;
+    height: 35px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+.submit:hover{
+    transform: scale(1.02);
+}
+.me2{
+    max-width: 50%;
+}
+.signature{
+    max-width: 50%;
+}
+.hire-btn{
+    cursor: pointer;
+    background: #1c4b9e;
+    color: #ffffff;
+    transition: all 0.3s ease;
+}
+.hire-btn:hover{
+    transform: scale(1.05);
+}
+.about-p{
+    color: #888;
+}
+.section-4{
+    background: linear-gradient(to top right, aliceblue 0%,#ffffff 100%);
+}
+.progress{
+    font-size: 0.75em;
+    line-height: 8em;
+    text-align: center;
+    background-color: #d6d9da;
+    border-radius: 0.25rem;
+    margin-bottom: 1em;
+    margin-top: -59px;
+    height: 7px;
+}
+.progress-tittle{
+    color: #888;
+    font-size: 0.85em;
+    text-transform: uppercase;
+    margin-bottom: 5em;
+    letter-spacing: 1px;
+    line-height: inherit;
+}
+.head-text{
+    font-family: none;
+    font-weight: 900;
+}
+.footer-bg{
+    background: #1b2740;
+}
+.line-img{
+    width: 66px;
+    margin-bottom: 7px;
+    margin-left: 2px;
+    height: 8px;
+}
+.cd-style{
+    transition: all 0.3s ease;
+    transition: all 0.35s ease;
+}
+.cd-style:hover{
+    transform: scale(1.02);
+    box-shadow:0 0 20px rgba(0, 47, 255, 0.897) ;
+}
+.fr-logo{
+    transition: all 0.1s ease;
+    transition: all 0.1s ease;
+}
+.fr-logo:hover{
+    transform: scale(1.05);
+    box-shadow:0 0 20px rgba(255, 145, 0, 0.897) ;
+}
+.ptf-style{
+    width: 100%;
+    transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.ptf-style:hover{
+    transform: scale(1.05);
+    box-shadow:0 0 20px rgba(122, 122, 122, 0.897) ;
+}
+.h-texts{
+    color: #00986f;
+}
+
+/*-----------Mobile-Size-------*/
+
+@media only screen and (max-width:600px){
+    .Name{
+        font-size: 38px;
+    }
+    .bg nav{
+        margin-left: -50px;
+    }
+    .cd-mobile{
+        margin-top: 15px;
+    }
+}
