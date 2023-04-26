@@ -196,3 +196,17 @@ nav li a:hover:after{
         font-size: 36px;
     }
 }
+
+@media all and (max-width: 340px){
+    .namelogo{
+        width: 40px;
+    }
+    .Name{
+            font-size: 33px;
+            margin-top: -30px;
+            margin-left: 45px
+    }
+    .line {
+         font-size: 34px;
+    }
+}
